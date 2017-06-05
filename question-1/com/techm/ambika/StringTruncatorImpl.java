@@ -1,6 +1,8 @@
 package com.techm.ambika;
 
-
+/**
+ * StringTruncatorImpl provides a concrete implementation of StringTruncator interface
+ */
 public class StringTruncatorImpl implements StringTruncator{
 
     @Override
@@ -38,5 +40,6 @@ public class StringTruncatorImpl implements StringTruncator{
         System.out.println(truncator.truncate("123456789012345678901234567890", 31));
         System.out.println(truncator.truncate("123456789012345678901234567890", 26));
         System.out.println(truncator.truncate("987636", 0));
+        System.out.println(truncator.truncate("", 10));
     }
 }
