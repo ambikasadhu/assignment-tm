@@ -3,6 +3,7 @@
 # Usage display message
 function display_usage {
   echo "\nUsage:\n$0 <input_file_path> <properties_file_path> <output_file_path> \n"
+  echo "\nFor example: sh replaceTokens.sh ../input/index.html ../conf/prod.properties ../output/index.html"
 }
 # Function to return the value of a property
 function getPropertyValue {
